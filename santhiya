@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main()
+{
+   int m;
+ 
+   printf("Enter an integer\m");
+   scanf("%d", &m);
+ 
+   if (m%2 == 0)
+      printf("Even\m");
+   else
+      printf("Odd\m");
+ 
+   return 0;
+}
